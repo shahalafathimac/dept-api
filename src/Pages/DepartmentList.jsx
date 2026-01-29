@@ -51,14 +51,14 @@ function DepartmentList() {
                 </p>
               </div>
 
-              <button 
+             <button 
                 onClick={() => deleteDept(dept._id)}
-                className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-slate-400 hover:text-rose-600 hover:bg-rose-50 transition-all duration-200 active:scale-95 group/btn"
+                className="group/btn flex items-center bg-transparent hover:bg-rose-50 rounded-2xl p-1.5 transition-all duration-300 ease-in-out hover:border-rose-100 active:scale-95"
               >
-                <span className="text-xs font-bold uppercase tracking-widest opacity-0 group-hover/btn:opacity-100 transition-opacity duration-200">
+                <span className="max-w-0 overflow-hidden opacity-0 group-hover/btn:max-w-[100px] group-hover/btn:opacity-100 group-hover/btn:ml-3 transition-all duration-300 ease-in-out whitespace-nowrap text-rose-600 text-xs font-bold uppercase tracking-widest">
                   Delete
                 </span>
-                <div className="p-2 rounded-lg bg-slate-50 group-hover/btn:bg-rose-100 transition-colors">
+                <div className="p-2.5 rounded-xl bg-slate-50 text-slate-400 group-hover/btn:bg-rose-600 group-hover/btn:text-white transition-all duration-300 shadow-sm">
                   <Trash2 className="w-5 h-5" />
                 </div>
               </button>

@@ -35,11 +35,7 @@ function Register() {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <div className="w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4">
-            <span className="text-white text-2xl font-bold">E</span>
-          </div>
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Create Account</h1>
-          <p className="text-gray-600">Join thousands of organizations managing their teams</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-xl p-8">
@@ -139,10 +135,6 @@ function Register() {
             </p>
           </div>
         </div>
-
-        <p className="text-center text-xs text-gray-500 mt-8">
-          By creating an account, you agree to our Terms of Service and Privacy Policy
-        </p>
       </div>
     </div>
   );
